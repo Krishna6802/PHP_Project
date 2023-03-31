@@ -1,0 +1,205 @@
+/*---------------------------------------------------------General code-----------------------------------------------------*/
+*{
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    background:transparent;    // FOR NO MARGIN
+    //font-family:Trebuchet MS;
+    font-family:sans-serif;
+}
+
+body {
+    line-height:1;
+}
+
+
+nav ul {
+    list-style:none;
+}
+
+
+
+/*------------------------------------------------------------Main Code--------------------------------------------------------*/
+
+
+.wrapper
+{
+	height:2100px;
+	width:1349px;
+	background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7))
+}
+
+
+/*----------------------------------------------------------Slider code---------------------------------------------------*/
+
+
+
+.banner
+{
+	height:720px;
+	width:1349px;
+	position: relative;
+	overflow: hidden;
+}
+.slider
+{
+	height:770px;
+	width:1349px;
+	position: absolute;
+}
+#slideImg
+{
+	height:770px;
+	width:1349px;
+	//opacity: .6;
+}
+
+.overlay
+{
+	height:770px;
+	width:1349px;
+	background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+//background: linear-gradient(rgba(115, 147, 179, 0.4), rgba(115, 147, 179, 0.4));
+				    
+	position: absolute;
+	top: 0;
+}
+
+.t1{ color: white;
+font-size:30px;}
+
+
+
+/*-----------------------------------------------------------Menu---------------------------------------------------*/
+
+.open-button {
+  background-color: transparent;
+  height: 20px;
+  width: 30px;
+  margin-top: -35px;
+  border: none;
+  cursor: pointer;
+  position:fixed;
+
+  right: 28px;
+}
+
+.form-popup {
+  float: right;
+  display: none;
+  background-color:rgba(0,0,180,0.4);
+  position: relative;
+//  top: 0px;
+//  right: 50px;
+//transition: block 0.5s;
+ // border: 3px solid rgba(0, 255, 255, 0.9);
+}
+
+
+
+.form-container {
+//  max-width:230px;
+  height:1200px;
+  width:1349px;
+ // overflow:visible;
+  padding: 10px;
+}
+
+.form-container .btn {
+  color: white;
+  font-size : 20px;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+//  opacity: 0.8;
+}
+
+.form-container .cancel {
+//  background-color: rgba(0,0,255, 1);
+//background-color:rgba(0,0,180,0.9);
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover {
+  opacity: 1;
+  color:rgba(0,0,180,0.7);
+  background-color:rgba(255,255,255,0.8);
+}
+
+/*----------------------------------------------------heading--------------------------------------*/
+
+.cntent
+{
+   width:60%;
+   margin: 180px auto 0;
+   text-align: center;
+   color: white;
+}
+
+.cntent h1
+{
+   font-size: 60px;
+  // font-family:sans-serif;
+}
+
+.cntent h3
+{
+   width:80%;
+   margin: 20px auto 100px;
+   font-weight: 100;
+   line-height: 25px;
+ //  font-family:sans-serif;
+}
+
+/*-----------------------------------------------------Button-------------------------------------------*/
+
+.btn2
+{
+   width: 200px;
+   border-radius:25px;
+   background-color: rgba(0, 0, 128,0.6) ;
+   border: 2px solid rgba(0, 0, 128,0.6);
+   color: white;
+   padding: 10px 0px;
+   text-align: center;
+   text-decoration: none;
+   font-size: 15px;
+   margin: 0px 10px;
+   cursor: pointer;
+   transition: background 0.5s; 
+
+}
+
+.btn3
+{
+   width: 200px;
+   border-radius:25px;
+   color: white;
+   padding: 10px 0px;
+   text-align: center;
+   text-decoration: none;
+   font-size: 15px;
+   margin: 0px 10px;
+   cursor: pointer;
+   transition: background 0.5s; 
+   border: 2px solid white;
+   background: transparent;
+}
+
+.btn2:hover
+{
+   background: transparent;
+   border: 2px solid white;
+}
+
+.btn3:hover
+{
+   border: 2px solid rgba(0, 0, 128,0.6);
+   background-color: #191970;
+}
+
+

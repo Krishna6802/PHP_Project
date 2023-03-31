@@ -1,0 +1,28 @@
+.top
+{
+	inline:block;
+	height:40px;
+	width:20px;
+}
+
+.topul
+{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+}
+
+.topli
+{
+	float:left;
+}
+
+.topa
+{
+	display:block;
+	padding:8px;
+	background-color:#dddddd;
+}
+
+	
