@@ -1,9 +1,3 @@
-<!doctype html>
-<html>
-<head> 
-   <title>Connection Page</title>  
-</head>
-
 <?php
 session_start();
 $con = mysqli_connect("localhost","root","");
